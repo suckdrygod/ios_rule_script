@@ -3,9 +3,9 @@
 # REPO: https://github.com/suckdrygod/ios_rule_script
 # SOURCE: https://github.com/blackmatrix7/ios_rule_script
 # UPDATED: 2026-05-28
-# HOST-SUFFIX: 18
-# HOST: 23
-# TOTAL: 41
+# HOST-SUFFIX: 20
+# HOST: 25
+# TOTAL: 45
 
 # > XianYu / Goofish 闲鱼
 HOST-SUFFIX,goofish.com,XianYu
@@ -28,10 +28,12 @@ HOST,dorangesource.alicdn.com,XianYu
 HOST,alilang-intranet.alibaba-inc.com,XianYu
 
 # > 闲鱼视频 / 图片 / CDN / SDK
+HOST,g.alicdn.com,XianYu
 HOST,gw.alicdn.com,XianYu
 HOST,img.alicdn.com,XianYu
 HOST,ossgw.alicdn.com,XianYu
 HOST,umc.danuoyi.alicdn.com,XianYu
+HOST,umdc.alibabachengdun.com,XianYu
 HOST,alivc-aio.cn-hangzhou.log.aliyuncs.com,XianYu
 HOST,video-sdk-cert-cdn.aliyuncs.com,XianYu
 HOST,cloud-config-service.rtc.aliyuncs.com,XianYu
@@ -59,3 +61,5 @@ HOST-SUFFIX,uyhjnm.com,XianYu
 HOST-SUFFIX,vbmnmy.com,XianYu
 HOST-SUFFIX,wsxsdf.com,XianYu
 HOST-SUFFIX,xcbbtf.com,XianYu
+
+
