@@ -1,9 +1,49 @@
 # NAME: XianYu
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:17:39
-# HOST-SUFFIX: 16
-# TOTAL: 16
+# AUTHOR: suckdrygod
+# REPO: https://github.com/suckdrygod/ios_rule_script
+# SOURCE: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2026-05-28
+# HOST-SUFFIX: 18
+# HOST: 23
+# TOTAL: 41
+
+# > XianYu / Goofish 闲鱼
+HOST-SUFFIX,goofish.com,XianYu
+HOST-SUFFIX,goofish.pro,XianYu
+HOST-SUFFIX,xianyu.mobi,XianYu
+
+# > 闲鱼主业务接口
+HOST,acs.m.goofish.com,XianYu
+HOST,g-acs.m.goofish.com,XianYu
+HOST,api.2.taobao.com,XianYu
+HOST,amdc.m.taobao.com,XianYu
+HOST,aid.m.taobao.com,XianYu
+
+# > 阿里系登录 / 网关 / 配置 / AB 测试
+HOST,mobilegw.alipay.com,XianYu
+HOST,orange-dc.alibaba.com,XianYu
+HOST,abtest.alibaba.com,XianYu
+HOST,yixiu-abtest.alicdn.com,XianYu
+HOST,dorangesource.alicdn.com,XianYu
+HOST,alilang-intranet.alibaba-inc.com,XianYu
+
+# > 闲鱼视频 / 图片 / CDN / SDK
+HOST,gw.alicdn.com,XianYu
+HOST,img.alicdn.com,XianYu
+HOST,ossgw.alicdn.com,XianYu
+HOST,umc.danuoyi.alicdn.com,XianYu
+HOST,alivc-aio.cn-hangzhou.log.aliyuncs.com,XianYu
+HOST,video-sdk-cert-cdn.aliyuncs.com,XianYu
+HOST,cloud-config-service.rtc.aliyuncs.com,XianYu
+HOST,vpp-license-proxy.aliyuncs.com,XianYu
+HOST,sisrole.alicdn.com,XianYu
+HOST,sealine.youku.com,XianYu
+
+# > 其他闲鱼相关补充域名
+HOST,tls-goofish.dingtalk.com,XianYu
+HOST,ifs.tanx.com,XianYu
+
+# > blackmatrix7 XianYu 原规则补充后缀
 HOST-SUFFIX,ewqcxz.com,XianYu
 HOST-SUFFIX,hjkhjkl.com,XianYu
 HOST-SUFFIX,iopiopl.com,XianYu
@@ -19,4 +59,3 @@ HOST-SUFFIX,uyhjnm.com,XianYu
 HOST-SUFFIX,vbmnmy.com,XianYu
 HOST-SUFFIX,wsxsdf.com,XianYu
 HOST-SUFFIX,xcbbtf.com,XianYu
-HOST-SUFFIX,xianyu.mobi,XianYu
